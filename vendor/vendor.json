@@ -1,0 +1,11 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"path": "github.com/tiancai110a/go-rpc",
+			"revision": ""
+		}
+	],
+	"rootPath": "github.com/tiancai110a/test_user"
+}
