@@ -1,0 +1,33 @@
+runmode: debug                 # 开发模式, debug, release, test
+server_name: user
+tcpurl: 127.0.0.1:8889
+idc: lf
+
+discovery:
+  name: zk
+  path: /root/lizongrong/service 
+  nodes: 127.0.0.1:1181,127.0.0.1:2181,127.0.0.1:3181
+  updateinterval: 1e10
+
+log:
+  writers: file,stdout
+  logger_level: DEBUG
+  logger_file: log/user.log
+  log_format_text: false
+  rollingPolicy: size ##日志转存策略
+  log_rotate_date: 1
+  log_rotate_size: 1 #日志转存1m
+  log_backup_count: 7
+
+read_db:
+  name: db_user
+  addr: 127.0.0.1:3306
+  username: root
+  password: 123
+write_db:
+  name: db_user
+  addr: 127.0.0.1:3306
+  username: root
+  password: 123
+
+
