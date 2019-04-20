@@ -12,9 +12,6 @@
 package main
 
 import (
-	"context"
-	"fmt"
-	"net/http"
 	"strconv"
 	"strings"
 	"time"
@@ -31,44 +28,8 @@ import (
 	"github.com/opentracing/opentracing-go/mocktracer"
 	"github.com/tiancai110a/go-rpc/protocol"
 	"github.com/tiancai110a/go-rpc/server"
-	"github.com/tiancai110a/go-rpc/service"
 	"github.com/tiancai110a/go-rpc/transport"
 )
-
-func testMiddleware1(rw *http.ResponseWriter, r *http.Request, c *server.Middleware) {
-
-	fmt.Println("before===testMiddlewarec1")
-	c.Next(nil, nil)
-
-	fmt.Println("after===testMiddlewarec1")
-}
-
-func testMiddleware2(rw *http.ResponseWriter, r *http.Request, c *server.Middleware) {
-	fmt.Println("before===testMiddlewarec2")
-	c.Next(nil, nil)
-
-	fmt.Println("after===testMiddlewarec2")
-}
-
-func testMiddleware3(rw *http.ResponseWriter, r *http.Request, c *server.Middleware) {
-	fmt.Println("before===testMiddlewarec3")
-	c.Next(nil, nil)
-	fmt.Println("after===testMiddlewarec3")
-}
-func TestAdd(ctx context.Context, resp *service.Resp) {
-
-	glog.Info("===========================================================================================resultful func")
-	glog.Info("==================================test1:", ctx.Value("test1"))
-	glog.Info("==================================test:", ctx.Value("test"))
-	glog.Info("==================================name:", ctx.Value("name"))
-	glog.Info("==================================pass:", ctx.Value("pass"))
-	//	res.data
-
-	resp.Add("name", "tiancai")
-	resp.Add("res1", "3.14")
-	resp.Add("list1", "1234,4567,1234,0987,3333")
-	return
-}
 
 //用来停止server，测试心跳功能
 var gs server.RPCServer
@@ -80,6 +41,8 @@ func StartServer(op *server.Option) {
 			glog.Error("new serializer failed", err)
 			return
 		}
+
+		Load(s)
 		go s.Serve("tcp", viper.GetString("tcpurl"), nil)
 	}()
 }
@@ -96,7 +59,6 @@ func main() {
 	if viper.GetString("discovery.name") == "zk" {
 		nodes := viper.GetString("discovery.nodes")
 		zknode := strings.Split(nodes, ",")
-		log.Infof("======================================znode %+v", zknode)
 		interval, err := strconv.ParseFloat(viper.GetString("discovery.updateinterval"), 64)
 		if err != nil {
 			log.Infof("parse interval err: %s", err)
