@@ -20,6 +20,22 @@ func (t User) Create(ctx context.Context, req *dl.CreateRequest, res *dl.CreateR
 		Password: req.Password,
 	}
 
+	// Validate the data.
+	if err := u.Validate(); err != nil {
+		log.Error("param validate failed", err)
+		res.Err = errno.ErrBlack
+		res.Err.Message = "param not complete"
+		return nil
+	}
+
+	// Encrypt the user password.
+	if err := u.Encrypt(); err != nil {
+		log.Error("Encrypt failed", err)
+		res.Err = errno.ErrBlack
+		res.Err.Message = "param not complete"
+		return nil
+	}
+
 	if err := u.Create(); err != nil {
 		log.Error("create user failed", err)
 		res.Err = errno.ErrSQL
@@ -100,6 +116,22 @@ func (t User) Update(ctx context.Context, req *dl.UpdateRequest, res *dl.UpdateR
 		Password: req.Password,
 	}
 	u.Id = req.Id
+
+	// Validate the data.
+	if err := u.Validate(); err != nil {
+		log.Error("param validate failed", err)
+		res.Err = errno.ErrBlack
+		res.Err.Message = "param not complete"
+		return nil
+	}
+
+	// Encrypt the user password.
+	if err := u.Encrypt(); err != nil {
+		log.Error("Encrypt failed", err)
+		res.Err = errno.ErrBlack
+		res.Err.Message = "param not complete"
+		return nil
+	}
 
 	if err := u.Update(); err != nil {
 		res.Err = errno.ErrSQL

@@ -11,4 +11,5 @@ var (
 
 	// user errors
 	ErrUserNotFound = &Errno{Code: 20102, Message: "The user was not found."}
+	ErrBlack        = &Errno{Code: 20103, Message: ""}
 )

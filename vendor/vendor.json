@@ -3,10 +3,34 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "b4DmyMT9bicTRVJw1hJXHLhIH+0=",
+			"path": "github.com/go-playground/locales",
+			"revision": "f63010822830b6fe52288ee52d5a1151088ce039",
+			"revisionTime": "2018-03-23T16:04:04Z"
+		},
+		{
+			"checksumSHA1": "JgF260rC9YpWyY5WEljjimWLUXs=",
+			"path": "github.com/go-playground/locales/currency",
+			"revision": "f63010822830b6fe52288ee52d5a1151088ce039",
+			"revisionTime": "2018-03-23T16:04:04Z"
+		},
+		{
+			"checksumSHA1": "7QcjNTtW0Rc/5BPw1MPaQ6YNjso=",
+			"path": "github.com/go-playground/universal-translator",
+			"revision": "71201497bace774495daed26a3874fd339e0b538",
+			"revisionTime": "2017-03-27T19:17:03Z"
+		},
+		{
 			"checksumSHA1": "3uQf4xaIQyYxKXODS1v0E7X0Rz8=",
 			"path": "github.com/go-sql-driver/mysql",
 			"revision": "578c4c8066964679ef44f45de2b6c7e811cc665e",
 			"revisionTime": "2019-04-10T03:04:54Z"
+		},
+		{
+			"checksumSHA1": "QdLDffDTptE6fjfrIevrmCgnnug=",
+			"path": "github.com/golang/crypto/bcrypt",
+			"revision": "df01cb2cc480549d72034218dd98bf97671450ac",
+			"revisionTime": "2019-04-17T08:53:58Z"
 		},
 		{
 			"checksumSHA1": "cGQumTyZMk2jBu314CJ1MGFQ9DY=",
@@ -19,6 +43,12 @@
 			"path": "github.com/jinzhu/gorm/dialects/mysql",
 			"revision": "7bc35615034c1d6994088c2cc925086fba6f565e",
 			"revisionTime": "2019-04-14T13:11:29Z"
+		},
+		{
+			"checksumSHA1": "O5KNHAjNKSO1Wh5/4JSnp/KXu9U=",
+			"path": "github.com/leodido/go-urn",
+			"revision": "a67a23e1c1af3c66528573bb86a87246477277c1",
+			"revisionTime": "2018-12-04T09:21:09Z"
 		},
 		{
 			"checksumSHA1": "43k7wJHq6oW+9ziVxEgxTqgCS2g=",
@@ -121,6 +151,18 @@
 			"path": "github.com/tiancai110a/go-rpc/transport",
 			"revision": "58ebdcb08071d7e8769040ca3bc3c5b7c5107b58",
 			"revisionTime": "2019-04-21T08:45:47Z"
+		},
+		{
+			"checksumSHA1": "q+XI9g44wd9mYvf3S5Wo8YZjAus=",
+			"path": "golang.org/x/crypto/blowfish",
+			"revision": "df01cb2cc480549d72034218dd98bf97671450ac",
+			"revisionTime": "2019-04-17T08:53:58Z"
+		},
+		{
+			"checksumSHA1": "ACzc7AkwLtNgKhqtj8V7SGUJgnw=",
+			"path": "gopkg.in/go-playground/validator.v9",
+			"revision": "46b4b1e301c24cac870ffcb4ba5c8a703d1ef475",
+			"revisionTime": "2019-03-31T13:31:25Z"
 		}
 	],
 	"rootPath": "github.com/tiancai110a/test_user"
