@@ -57,3 +57,116 @@
 {"level":"INFO","timestamp":"2019-04-20 16:44:35.546","file":"user/curd.go:38","msg":"--------------------------------------------------------------------------update: %!d(string=tiancai)"}
 {"level":"INFO","timestamp":"2019-04-20 16:44:35.547","file":"user/curd.go:26","msg":"--------------------------------------------------------------------------Get: %!d(string=tiancai)"}
 {"level":"INFO","timestamp":"2019-04-20 16:44:35.548","file":"user/curd.go:32","msg":"--------------------------------------------------------------------------List: %!d(string=tiancai)"}
+{"level":"INFO","timestamp":"2019-04-21 18:06:18.078","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:04.416","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:08.133","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:08.945","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:09.660","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:10.214","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:24.469","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:34.495","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:05.132","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:06.158","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:06.954","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:07.684","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:08.428","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:09.117","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:09.815","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:10.586","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:10:29.759","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:39.929","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:47.328","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:48.155","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:48.831","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:49.437","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:50.113","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:50.770","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:51.388","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:52.195","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:15:03.128","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:15:03.910","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:15:04.718","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:15:05.557","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:15:06.313","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:15:07.029","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:15:09.969","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:25:46.179","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 18:25:46.186","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 18:25:46.279","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 18:25:46.281","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 18:26:03.097","file":"user/user.go:17","msg":"--------------------------------------------------------------------------create name:qwert  passwd:xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 18:26:13.789","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"INFO","timestamp":"2019-04-21 18:34:49.167","file":"user/user.go:37","msg":"------------------------------------------------------------------------- Delete ID: 14"}
+{"level":"INFO","timestamp":"2019-04-21 18:47:29.049","file":"user/user.go:37","msg":"------------------------------------------------------------------------- Delete ID: 14"}
+{"level":"INFO","timestamp":"2019-04-21 18:47:46.924","file":"user/user.go:37","msg":"------------------------------------------------------------------------- Delete ID: 14"}
+{"level":"INFO","timestamp":"2019-04-21 18:47:47.518","file":"user/user.go:37","msg":"------------------------------------------------------------------------- Delete ID: 14"}
+{"level":"INFO","timestamp":"2019-04-21 18:47:48.196","file":"user/user.go:37","msg":"------------------------------------------------------------------------- Delete ID: 14"}
+{"level":"INFO","timestamp":"2019-04-21 18:47:48.917","file":"user/user.go:37","msg":"------------------------------------------------------------------------- Delete ID: 14"}
+{"level":"INFO","timestamp":"2019-04-21 18:47:49.495","file":"user/user.go:37","msg":"------------------------------------------------------------------------- Delete ID: 14"}
+{"level":"INFO","timestamp":"2019-04-21 18:47:50.127","file":"user/user.go:37","msg":"------------------------------------------------------------------------- Delete ID: 14"}
+{"level":"INFO","timestamp":"2019-04-21 18:56:57.646","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:admin}"}
+{"level":"INFO","timestamp":"2019-04-21 18:57:06.386","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 18:57:06.388","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 18:57:06.486","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 18:57:06.488","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 18:57:08.557","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 18:57:08.564","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 18:57:08.658","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 18:57:08.662","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 18:57:09.601","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 18:57:09.602","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 18:57:09.701","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 18:57:09.703","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 18:57:10.751","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 18:57:10.753","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 18:57:10.852","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 18:57:10.854","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 19:04:18.397","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 19:04:18.401","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 19:04:18.496","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 19:04:18.499","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 19:06:46.683","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 19:06:46.688","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 19:06:46.783","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 19:06:46.785","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 19:17:02.377","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 19:17:02.386","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 19:17:02.477","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 19:17:02.479","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 19:18:08.380","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 19:18:08.393","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 19:18:08.480","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 19:18:08.482","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 19:19:03.999","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 19:19:04.002","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 19:19:04.099","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 19:19:04.100","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 19:22:17.053","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 19:22:17.070","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 19:22:41.356","file":"user/user.go:17","msg":"--------------------------------------------------------------------------create name:asd  passwd:xiaohong"}
+{"level":"ERROR","timestamp":"2019-04-21 19:22:41.364","file":"user/user.go:24","msg":"create user failed","data":{"error":"Error 1062: Duplicate entry 'xiaohong' for key 'username'"}}
+{"level":"INFO","timestamp":"2019-04-21 19:23:10.425","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 19:23:10.428","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 19:23:15.910","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 19:23:15.913","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 19:23:27.470","file":"user/user.go:17","msg":"--------------------------------------------------------------------------create name:asd  passwd:xiaohong"}
+{"level":"ERROR","timestamp":"2019-04-21 19:23:27.480","file":"user/user.go:24","msg":"create user failed","data":{"error":"Error 1062: Duplicate entry 'xiaohong' for key 'username'"}}
+{"level":"INFO","timestamp":"2019-04-21 19:23:52.215","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 19:23:52.217","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 19:27:05.479","file":"user/user.go:17","msg":"--------------------------------------------------------------------------create name:asd  passwd:xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 19:28:50.240","file":"user/user.go:37","msg":"------------------------------------------------------------------------- Delete ID: 15"}
+{"level":"INFO","timestamp":"2019-04-21 19:29:14.843","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"ERROR","timestamp":"2019-04-21 19:29:14.845","file":"user/user.go:54","msg":"get user failed","data":{"error":"record not found"}}
+{"level":"INFO","timestamp":"2019-04-21 19:29:32.645","file":"user/user.go:17","msg":"--------------------------------------------------------------------------create name:123  passwd:xiaohong"}
+{"level":"ERROR","timestamp":"2019-04-21 19:29:32.648","file":"user/user.go:24","msg":"create user failed","data":{"error":"Error 1062: Duplicate entry 'xiaohong' for key 'username'"}}
+{"level":"INFO","timestamp":"2019-04-21 19:29:35.508","file":"user/user.go:17","msg":"--------------------------------------------------------------------------create name:123  passwd:xiaohong"}
+{"level":"ERROR","timestamp":"2019-04-21 19:29:35.511","file":"user/user.go:24","msg":"create user failed","data":{"error":"Error 1062: Duplicate entry 'xiaohong' for key 'username'"}}
+{"level":"INFO","timestamp":"2019-04-21 19:29:38.622","file":"user/user.go:17","msg":"--------------------------------------------------------------------------create name:123  passwd:xiaohong"}
+{"level":"ERROR","timestamp":"2019-04-21 19:29:38.626","file":"user/user.go:24","msg":"create user failed","data":{"error":"Error 1062: Duplicate entry 'xiaohong' for key 'username'"}}
+{"level":"INFO","timestamp":"2019-04-21 19:37:56.516","file":"user/user.go:17","msg":"--------------------------------------------------------------------------create name:123  passwd:xiaohong"}
+{"level":"ERROR","timestamp":"2019-04-21 19:37:56.520","file":"user/user.go:24","msg":"create user failed","data":{"error":"Error 1062: Duplicate entry 'xiaohong' for key 'username'"}}
+{"level":"INFO","timestamp":"2019-04-21 19:38:10.959","file":"user/user.go:37","msg":"------------------------------------------------------------------------- Delete ID: 15"}
+{"level":"INFO","timestamp":"2019-04-21 19:38:18.175","file":"user/user.go:17","msg":"--------------------------------------------------------------------------create name:123  passwd:xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 19:38:24.956","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}
+{"level":"INFO","timestamp":"2019-04-21 20:01:45.515","file":"user/user.go:96","msg":"--------------------------------------------------------------------------update: %!d(string=xiaohong)"}
+{"level":"INFO","timestamp":"2019-04-21 20:01:54.924","file":"user/user.go:51","msg":"--------------------------------------------------------------------------Get: \u0026{Username:xiaohong}"}

@@ -22,12 +22,13 @@ import (
 	"github.com/spf13/viper"
 	"github.com/tiancai110a/go-rpc/registry"
 	"github.com/tiancai110a/go-rpc/registry/libkv"
+	"github.com/tiancai110a/go-rpc/server"
 	"github.com/tiancai110a/test_user/config"
+	"github.com/tiancai110a/test_user/model"
 
 	"github.com/golang/glog"
 	"github.com/opentracing/opentracing-go/mocktracer"
 	"github.com/tiancai110a/go-rpc/protocol"
-	"github.com/tiancai110a/go-rpc/server"
 	"github.com/tiancai110a/go-rpc/transport"
 )
 
@@ -54,6 +55,10 @@ func main() {
 	if err := config.Init(""); err != nil {
 		panic(err)
 	}
+
+	// init db
+	model.DB.Init()
+	defer model.DB.Close()
 
 	var r1 registry.Registry
 	if viper.GetString("discovery.name") == "zk" {

@@ -3,7 +3,8 @@ package model
 import (
 	"fmt"
 
-	"github.com/lexkong/log"
+	"github.com/golang/glog"
+
 	"github.com/spf13/viper"
 
 	// MySQL driver.
@@ -27,10 +28,10 @@ func openDB(username, password, addr, name string) *gorm.DB {
 		true,
 		//"Asia/Shanghai"),
 		"Local")
-	log.Infof("======================================", username, " ", password, addr, name)
+	glog.Info("", username, " ", password, addr, name)
 	db, err := gorm.Open("mysql", config)
 	if err != nil {
-		log.Errorf(err, "Database connection failed. Database name: %s", name)
+		glog.Errorf("Database connection failed. Database name: %s", name)
 	}
 
 	// set for db connection
@@ -69,10 +70,12 @@ func GetReadDB() *gorm.DB {
 }
 
 func (db *Database) Init() {
+
 	DB = &Database{
 		Write: GetWriteDB(),
 		Read:  GetReadDB(),
 	}
+
 }
 
 func (db *Database) Close() {

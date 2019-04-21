@@ -4,6 +4,7 @@ import (
 	"strings"
 
 	"github.com/fsnotify/fsnotify"
+	"github.com/golang/glog"
 	"github.com/lexkong/log"
 	"github.com/spf13/viper"
 )
@@ -67,6 +68,6 @@ func (c *Config) initConfig() error {
 func (c *Config) watchConfig() {
 	viper.WatchConfig()
 	viper.OnConfigChange(func(e fsnotify.Event) {
-		log.Infof("Config file changed: %s", e.Name)
+		glog.Infof("Config file changed: %s", e.Name)
 	})
 }

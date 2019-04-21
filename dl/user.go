@@ -1,4 +1,4 @@
-package user
+package dl
 
 type UserInfo struct {
 	Id       int64
@@ -12,12 +12,14 @@ type CreateRequest struct {
 
 type CreateResponse struct {
 	Username string
+	Base
 }
 
 type DeleteRequest struct {
 	UserID int64
 }
 type DeleteResponse struct {
+	Base
 }
 
 type GetUserRequest struct {
@@ -25,6 +27,7 @@ type GetUserRequest struct {
 }
 type GetUserResponse struct {
 	UserInfo
+	Base
 }
 
 type ListRequest struct {
@@ -36,6 +39,7 @@ type ListRequest struct {
 type ListResponse struct {
 	TotalCount uint64
 	UserList   []*UserInfo
+	Base
 }
 
 type UpdateRequest struct {
@@ -43,4 +47,5 @@ type UpdateRequest struct {
 }
 
 type UpdateResponse struct {
+	Base
 }

@@ -213,6 +213,7 @@ func (s *SGServer) process(ctx context.Context, requestMsg *protocol.Message, re
 		return errorResponse(responseMsg, err.Error())
 
 	}
+
 	if requestMsg.Data != nil {
 		err = s.serializer.Unmarshal(requestMsg.Data, &argv)
 		if err != nil {
