@@ -3,7 +3,6 @@ package model
 import (
 	"fmt"
 
-	"github.com/tiancai110a/test_user/pkg/auth"
 	validator "gopkg.in/go-playground/validator.v9"
 )
 
@@ -62,18 +61,6 @@ func ListUser(username string, offset, limit int64) ([]*UserModel, uint64, error
 	}
 
 	return users, count, nil
-}
-
-//Compare with the plain text password. Returns true if it's the same as the encrypted one (in the `User` struct).
-func (u *UserModel) Compare(pwd string) (err error) {
-	err = auth.Compare(u.Password, pwd)
-	return
-}
-
-// Encrypt the user password.
-func (u *UserModel) Encrypt() (err error) {
-	u.Password, err = auth.Encrypt(u.Password)
-	return
 }
 
 //Validate the fields.

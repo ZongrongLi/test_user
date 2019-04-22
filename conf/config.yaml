@@ -2,6 +2,8 @@ runmode: debug                 # 开发模式, debug, release, test
 server_name: user
 tcpurl: 127.0.0.1:8889
 idc: lf
+jwt_secret: Rtg8BPKNEf2mB4mgvKONGPZZQSaJWNLijxR42qRgq0iBb5 
+
 
 discovery:
   name: zk
